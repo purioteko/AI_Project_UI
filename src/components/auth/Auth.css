@@ -1,0 +1,14 @@
+.form-component {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form-container {
+  margin-top: 25px;
+}
+
+.action-btn {
+  margin-top: 15px;
+}

@@ -1,0 +1,46 @@
+/* BEGIN: Display chat and context container side by side */
+
+.component-container {
+  width: 100%;
+  padding: 1em;
+  /* important */
+  display: flex;
+  /* important */
+  align-items: stretch;
+  justify-content: space-around;
+  height: calc(100vh - 60px);
+  overflow: hidden;
+}
+
+.child {
+  margin: 0 0.5em;
+  padding: 0.5em;
+  /* optional */
+  min-height: 100%;
+  overflow-y: auto;
+}
+
+.context-container {
+  width: 20%;
+  overflow: hidden;
+}
+
+.chat-container {
+  width: 80%;
+}
+
+/* BEGIN: Hide context-container in mobile view */
+@media (max-width: 768px) {
+  .context-container {
+    display: none;
+  }
+}
+
+/* BEGIN: Make chat-container full width in mobile view */
+@media (max-width: 768px) {
+  .chat-container {
+    width: 100%;
+  }
+}
+
+/* END: Display chat and context container side by side */

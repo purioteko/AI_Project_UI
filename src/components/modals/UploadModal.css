@@ -1,0 +1,47 @@
+/* Dark theme for the modal */
+.modal {
+  background-color: #0000007d;
+  color: #fff;
+}
+
+.modal-header {
+  background-color: #222;
+  color: #fff;
+}
+
+.modal-body {
+  background-color: #111;
+  color: #fff;
+}
+
+.modal-footer {
+  background-color: #222;
+  color: #fff;
+}
+
+.modal-button {
+  background-color: #555;
+  color: #fff;
+}
+
+.modal-button:hover {
+  background-color: #777;
+}
+
+.modal-dialog {
+  margin: 15rem auto;
+}
+
+.delete-button {
+  background-color: #ff0000;
+  color: #fff;
+  float: right;
+}
+
+.file-name {
+  display: inline-block;
+}
+
+.file {
+  margin-bottom: 10px;
+}

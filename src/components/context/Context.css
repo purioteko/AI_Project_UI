@@ -1,0 +1,93 @@
+.context-list {
+  height: calc(100% - 50px);
+  background-color: #343a40;
+  border-radius: 5px;
+  padding-top: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.context-item {
+  margin-bottom: 5px;
+  width: calc(100% - 20px);
+  overflow-wrap: break-word;
+}
+
+.clear-context {
+  background-color: rgb(192, 0, 0);
+}
+
+.active-context-item {
+  background-color: #555;
+}
+
+.new-context {
+  background-color: rgb(13, 71, 194);
+}
+
+.context-item {
+  margin-left: 10px;
+  margin-right: 20px; /* Add this line to create space on the right side */
+  padding: 10px 20px;
+  /* background-color: #044e9e; */
+  background-color: #333; /* Dark context item background color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.context-item:hover {
+  background-color: #555 !important;
+}
+
+.new-context-item {
+  margin-left: 10px;
+  margin-right: 20px; /* Add this line to create space on the right side */
+  padding: 10px 20px;
+  /* background-color: #069619; */
+  background-color: #555; /* Dark new context item background color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.context-menu {
+  position: absolute;
+  /* background-color: #f2f2f2; */
+  background-color: #343a40; /* Dark background color */
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 1;
+}
+
+.context-action {
+  margin-left: 10px;
+  margin-right: 20px; /* Add this line to create space on the right side */
+  padding: 10px 20px;
+  /* background-color: #007bff; */
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 25%;
+  display: inline-block;
+}
+
+.new-context {
+  color: #b1b1b5;
+}
+
+.clear-context {
+  color: #be3b3c;
+}
+
+.action-container {
+  text-align: center;
+}
+
+.delete-mode {
+  background-color: #be3b3c !important;
+}

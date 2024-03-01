@@ -1,0 +1,17 @@
+.spinner-container {
+  width: 100vw;
+  height: 100vh;
+  position: static;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.mobile-nav-item {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-nav-item {
+    display: block;
+  }
+}

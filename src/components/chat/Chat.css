@@ -1,0 +1,94 @@
+.chat-container {
+  flex-direction: column;
+  width: 100%;
+}
+
+.messages {
+  flex-grow: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.message {
+  /* background-color: #f2f2f2; */
+  background-color: #343a40; /* Dark background color */
+  color: #fff; /* Light text color */
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  overflow-wrap: break-word;
+}
+
+.message pre {
+  background-color: #4a4d51;
+  color: #e1e9f1;
+}
+
+.input-container {
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+  width: calc(80% - 25px);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  /* background-color: #f2f2f2; */
+  background-color: #1a1a1a; /* Dark background color */
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .input-container {
+    width: 100%;
+  }
+}
+
+.input-container textarea {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #343a40; /* Dark input background color */
+  color: #fff; /* Light input text color */
+  font-family: "Courier New", monospace; /* Use a monospace font for better readability */
+  font-size: 14px; /* Adjust the font size as needed */
+}
+
+.input-container button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  /* background-color: #007bff; */
+  background-color: #555; /* Dark button background color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 60px;
+}
+
+.input-container button:hover {
+  /* background-color: #0056b3; */
+  background-color: #666; /* Dark button background color on hover */
+}
+
+.input-container button:disabled {
+  background-color: #343a40; /* Darker button background color */
+}
+
+.user-message {
+  margin-left: 20px;
+  background-color: #54575b;
+}
+
+.upload-container {
+  margin: 0px 10px;
+}
+
+.chat-loading {
+  margin-left: 20px;
+  margin-top: 10px;
+}
